@@ -1,0 +1,10 @@
+#pragma once
+//#ifndef STB_IMAGE_IMPLEMENTATION
+//#define STB_IMAGE_IMPLEMENTATION
+//#endif // !STB_IMAGE_IMPLEMENTATION
+//#define STBI_FAILURE_USERMSG
+
+#define STB_IMAGE_STATIC
+#define STB_IMAGE_IMPLEMENTATION
+
+#include "stb_image.h"

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\mat">
+      <UniqueIdentifier>{ca6ad738-9782-4246-847b-af72682e8004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mat">
+      <UniqueIdentifier>{f2b90397-c0f6-4a85-82ca-a9339fdad170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\texture">
+      <UniqueIdentifier>{2719d48c-4e63-492a-9542-fe6400898baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture">
+      <UniqueIdentifier>{03311f95-f619-4d19-8ff3-47f5eee156a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third">
+      <UniqueIdentifier>{940a7d0c-5c8d-4dae-a5e3-0aec78727262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\texture\noise">
+      <UniqueIdentifier>{99810a89-4407-4581-a22d-0dd98f68e513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture\noise">
+      <UniqueIdentifier>{ff4a8775-dbca-4937-83a8-bcbd196613bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\texture\load">
+      <UniqueIdentifier>{557fe2a4-ddd3-4130-a84d-50baec4cefd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\shape">
+      <UniqueIdentifier>{b4d9edfe-4c7a-49e9-b662-a3c3445b5bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shape">
+      <UniqueIdentifier>{55520794-01ed-4f24-a0da-fb5369cbb5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mat\light">
+      <UniqueIdentifier>{1b2c1240-c87f-497d-aa0e-9255379dffe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mat\light">
+      <UniqueIdentifier>{e9852ffc-ad0a-440d-bc3c-28e8635975e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shape\instance">
+      <UniqueIdentifier>{8ee0dd03-9526-482f-983e-29a0e0238d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\shape\instance">
+      <UniqueIdentifier>{58050aa9-2b09-4a4e-aa6c-e5905fd184d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cam\Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Color.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\HitTableList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Interval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\shape\bbox\AABB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bvh\BVHNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat\Metal.cpp">
+      <Filter>源文件\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat\Lambertian.cpp">
+      <Filter>源文件\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat\Dielectric.cpp">
+      <Filter>源文件\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tex\CheckerTexture.cpp">
+      <Filter>源文件\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tex\ImageTexture.cpp">
+      <Filter>源文件\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tex\noise\Perlin.cpp">
+      <Filter>源文件\texture\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tex\NoiseTexture.cpp">
+      <Filter>源文件\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\Sphere.cpp">
+      <Filter>源文件\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tex\SolidColor.cpp">
+      <Filter>源文件\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\Quad.cpp">
+      <Filter>源文件\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat\light\DiffuseLIght.cpp">
+      <Filter>源文件\mat\light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\instance\Translate.cpp">
+      <Filter>源文件\shape\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\instance\RotateY.cpp">
+      <Filter>源文件\shape\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat\Isotropic.cpp">
+      <Filter>源文件\mat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\ConstantMedium.cpp">
+      <Filter>源文件\shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cam\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hit\Hit.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\HitTableList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Interval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\Ray.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Utility.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Vec3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\bbox\AABB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bvh\BVHNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat\Lambertian.h">
+      <Filter>头文件\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat\MaterialBase.h">
+      <Filter>头文件\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat\Metal.h">
+      <Filter>头文件\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat\Dielectric.h">
+      <Filter>头文件\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tex\Texture.h">
+      <Filter>头文件\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tex\SolidColor.h">
+      <Filter>头文件\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tex\CheckerTexture.h">
+      <Filter>头文件\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\stb_image.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tex\ImageTexture.h">
+      <Filter>头文件\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tex\noise\Perlin.h">
+      <Filter>头文件\texture\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third\imp_stbImage.cpp">
+      <Filter>头文件\texture\load</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tex\load\RTWImage.h">
+      <Filter>头文件\texture\load</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tex\NoiseTexture.h">
+      <Filter>头文件\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\Sphere.h">
+      <Filter>头文件\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\Quad.h">
+      <Filter>头文件\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat\light\DiffuseLIght.h">
+      <Filter>头文件\mat\light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\instance\Translate.h">
+      <Filter>头文件\shape\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\instance\RotateY.h">
+      <Filter>头文件\shape\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\ConstantMedium.h">
+      <Filter>头文件\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat\Isotropic.h">
+      <Filter>头文件\mat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FinalScene.ppm" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
