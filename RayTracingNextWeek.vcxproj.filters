@@ -217,5 +217,6 @@
   <ItemGroup>
     <None Include="FinalScene.ppm" />
     <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
